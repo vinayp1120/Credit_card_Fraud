@@ -58,7 +58,7 @@ Min and Max: Minimum and maximum values in the dataset.
 
 Quartiles (Q1, Q2, Q3): Represent the 25th, 50th (median), and 75th percentiles.
 
-**4.Handling Class Imbalance **
+**4.Handling Class Imbalance**
 The dataset is examined for class imbalance by visualizing the distribution of fraudulent (Class 1) and non-fraudulent (Class 0) transactions using Seaborn.
 
 Since fraud cases are significantly less frequent than legitimate transactions, techniques such as SMOTE (Synthetic Minority Over-sampling Technique) and Random Undersampling are considered to balance the dataset.
