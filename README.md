@@ -1,4 +1,5 @@
 ### Credit Card Fraud Detection: A Machine Learning Approach
+### DATASET LINK: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 ### Objective
 The primary objective of this project is to detect fraudulent credit card transactions using statistical analysis and machine learning models. By leveraging data preprocessing techniques, exploratory data analysis (EDA), and various classification algorithms, we aim to automate fraud detection with high accuracy and reliability.
 
