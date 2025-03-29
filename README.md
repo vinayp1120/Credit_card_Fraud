@@ -2,7 +2,7 @@
 ### DATASET LINK: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 ### Objective
 The primary objective of this project is to detect fraudulent credit card transactions using statistical analysis and machine learning models. By leveraging data preprocessing techniques, exploratory data analysis (EDA), and various classification algorithms, we aim to automate fraud detection with high accuracy and reliability.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Key Implementations
 Throughout this project, the following tasks have been performed:
 
@@ -15,7 +15,7 @@ Throughout this project, the following tasks have been performed:
 **Machine Learning Model Development**: Training and optimizing models for fraud detection.
 
 **Evaluation Metrics**: Assessing model performance using multiple key performance indicators (KPIs).
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Performance Indicators
 To ensure model effectiveness, the following metrics are considered:
 
@@ -28,7 +28,7 @@ AUC-ROC (Area Under the Receiver Operating Characteristic Curve)
 AUC-PR (Area Under the Precision-Recall Curve)
 
 Cross-Validation Score (Ensures model generalization)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Data Preprocessing Steps
 **1. Understanding the Dataset**
 A Pandas DataFrame is created to inspect the dataset's structure, including the number of rows, columns, and data types.
@@ -70,7 +70,7 @@ The distribution of Transaction Time and Transaction Amount is analyzed to ident
 A correlation heatmap using Seaborn is plotted to understand relationships between variables, helping in feature selection for model training.
 
 By following these structured steps, the dataset is effectively prepared for training machine learning models that can accurately detect fraudulent transactions.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Handling Class Imbalance
 Class imbalance is a critical issue in fraud detection, as fraudulent transactions are significantly fewer than legitimate ones. To ensure the model learns effectively, several techniques are employed to balance the dataset:
 
@@ -102,7 +102,7 @@ The process is repeated, applying undersampling followed by SMOTE to achieve a m
 The final resampled dataset is converted into a Pandas DataFrame and visualized using a count plot to confirm the balanced class distribution.
 
 With the dataset now balanced, we move on to the next step—model building.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Model Selection and Planning
 Before selecting the best model for fraud detection, it is crucial to analyze different machine learning algorithms and their suitability for this dataset. Below is a list of models considered, along with their characteristics and applicability:
 
@@ -157,7 +157,7 @@ Conditions to Apply:
 Assumes feature independence (not ideal for highly correlated features).
 
 Computationally efficient but may struggle with non-linear relationships.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Model Training
 The following machine learning models were trained for fraud detection:
 
@@ -174,7 +174,7 @@ K-Nearest Neighbors (KNN)
 Naïve Bayes
 
 With these models implemented, the next step is to evaluate their performance using various key performance indicators (KPIs) to determine the best approach for fraud detection.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Model Performance & Accuracy
 
 After training and evaluating the models, the following accuracy scores were obtained:
@@ -190,9 +190,8 @@ Support Vector Machine (SVM): 0.9966
 K-Nearest Neighbors (KNN): 0.9992
 
 Naïve Bayes: 0.9239
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Conclusion
-
 The results indicate that Random Forest and XGBoost performed exceptionally well, achieving near-perfect accuracy. While Logistic Regression and SVM also performed well, Naïve Bayes had the lowest accuracy, likely due to its assumption of feature independence.
 
 For real-world fraud detection, an ensemble approach combining Random Forest and XGBoost, along with robust anomaly detection techniques, can enhance model reliability and generalization.
